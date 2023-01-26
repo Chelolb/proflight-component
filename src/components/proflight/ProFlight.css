@@ -1,0 +1,76 @@
+.logoList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.buttonRight {
+    height: 107px;
+    width: 113px;
+    border-radius: 200px;
+    align-self: center;
+    margin-left: 18px;
+    background: linear-gradient(233.16deg, #00B0CE -47.28%, rgba(0, 176, 206, 0.3) 73.34%);
+}
+.buttonLeft {
+    height: 107px;
+    width: 113px;
+    border-radius: 200px;
+    align-self: center;
+    margin-right: 18px;
+    background: linear-gradient(233.16deg, #00B0CE -47.28%, rgba(0, 176, 206, 0.3) 73.34%);
+}
+.imgButton{
+    height: 107px;
+    width: 113px;
+    border-radius: 200px;    
+}
+.containerPrimary {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.containerImg {
+    height: 206px;
+    width: 216px;
+    margin-left: 18px;
+    margin-right: 18px;
+    border-radius: 30px;
+    background: linear-gradient(233.16deg, #00B0CE -10.31%, rgba(0, 176, 206, 0.3) 110.31%);
+}
+.containerImgLight {
+    height: 206px;
+    width: 216px;
+    margin-left: 18px;
+    margin-right: 18px;
+    border-radius: 30px;
+    background: linear-gradient(233.16deg, #00B0CE -10.31%, rgba(0, 176, 206, 0.3) 110.31%);
+    filter: opacity(0.3); 
+}
+.logoImg {
+    height: 153px;
+    width: 155px;
+    margin-top: 26px;
+    border-radius: 26px;
+}
+.prevButton {
+    height: 61px;
+    width: 48px;
+    position: absolute;
+    top: 130px;
+    left: 300px;
+    border-style: hidden;
+    background-color: transparent;   
+    cursor: pointer;   
+}
+.nextButton {
+    height: 61px;
+    width: 48px;
+    position: absolute;
+    top: 130px;
+    left: 1455px;
+    border-style: hidden;    
+    background-color: transparent; 
+    cursor: pointer;   
+}
